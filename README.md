@@ -142,3 +142,11 @@ WHERE cam.monthly_budget > 9900;
 こういうあるあるなやつも動く。えらい。
 
 というか、psqlがそもそもpostgreSQLのインターフェースっぽい。citusは追加のインターフェースを提供しているだけということ？すごいなあ
+
+## 片付け
+
+```console
+docker stop citus
+```
+
+おしまい
